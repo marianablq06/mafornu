@@ -1,0 +1,79 @@
+.white {
+	color: $white;
+}
+.blue {
+	color: $blue-text;
+}
+.orange {
+	color:$orange;
+}
+.main-container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+.rwd-line {
+	display: block;
+}
+.row-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.description {
+	font-family: 'Commuters Sans';
+	font-weight: 400;
+	font-size: 1.3rem;
+}
+.title {
+	text-transform: uppercase;
+	font-family: 'Bevan';
+}
+.title-round span{
+	background: $blue;
+	font-family: 'Commuters Sans';
+	color: $white;
+	padding: 20px 45px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1rem;
+	border-radius: 50px;
+}
+.subtitle {
+	font-family: 'Commuters Sans';
+	font-weight: 400;
+	font-size: 1.4rem;
+}
+@media screen and (min-width: 1500px) {
+	html, body, * {
+		font-size: 23px;
+	}
+}
+@media screen and (max-width: 480px) {
+	html, body, * {
+		font-size: 14px;
+	}
+}
+.footer-container {
+	margin-top: -100px;
+	@media screen and (min-width: 1500px) {
+		margin-top: -150px;
+	}
+	@media screen and (max-width: 480px) {
+		margin-top: -25px;
+	}
+}
+.sticky-cta {
+	position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 10vh;
+    @media screen and (max-width: 480px) {
+   		max-width: 40px;
+   	}
+}

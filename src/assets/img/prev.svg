@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="34px" viewBox="0 0 38 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>15B1E0D5-E48A-4235-AE07-08AFC0453FF7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 22 0 22 33 0 33"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.0-Landing" transform="translate(-100.000000, -1442.000000)">
+            <g id="icon-arrow" transform="translate(117.000000, 1459.000000) scale(-1, 1) translate(-117.000000, -1459.000000) translate(100.000000, 1442.000000)">
+                <g id="Flecha-Izquierda" transform="translate(23.000000, 16.613636) scale(1, -1) translate(-23.000000, -16.613636) translate(12.000000, 0.113636)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M0.545351287,31.8572848 C-0.359066533,30.5917278 -0.113152322,28.8033785 1.09455969,27.854925 L15.5980334,16.499193 L1.09455969,5.14060421 C-0.113152322,4.19215062 -0.359066533,2.40380138 0.545351287,1.14110112 C1.44976911,-0.118742353 3.16297144,-0.372996478 4.37068346,0.566886747 L20.3742338,13.0996154 C21.3906792,13.8966592 21.9972676,15.1622162 22,16.4934794 C22,17.8275994 21.3934116,19.0960132 20.3769662,19.8959138 L4.37068346,32.4314992 C3.87885503,32.8143088 3.30505521,33 2.73398776,33 C1.90334421,33 1.08089779,32.6057633 0.545351287,31.8572848 Z" id="Fill-4" fill="#0A253F" mask="url(#mask-2)"></path>
+                </g>
+                <line x1="0.404326923" y1="16.6136364" x2="28.4423077" y2="16.6136364" id="Path-3" stroke="#0A253F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

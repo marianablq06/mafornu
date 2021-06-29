@@ -1,0 +1,54 @@
+@import "../setup/variables.scss";
+.call-to-action {
+	position: relative;
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	.text {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		top: 0;
+		left: 0;
+		justify-content: center;
+		.title {
+			font-family: 'Commuters Sans';
+			font-weight: 900;
+			font-size: 3rem;
+			text-transform: none;
+			span {
+				font-size: inherit;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 2.5rem;
+			}
+			@media screen and (max-width: 480px) {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+.envianos-un-mensaje {
+	position: absolute;
+	bottom: -2.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	@media screen and (max-width: 768px) {
+		bottom: -1.5rem;
+	}
+}
+.footer-bottom {
+	padding-top: 100px;
+	padding-bottom: 30px;
+	svg g {
+		cursor: pointer;
+		transition: all .25s ease-in-out;
+		&:hover {
+			fill: $orange;
+		}
+	}
+}

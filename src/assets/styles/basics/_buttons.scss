@@ -1,0 +1,19 @@
+.big-button {
+	background: $blue;
+	font-family: 'Commuters Sans';
+	color: $white;
+	padding: 2rem 50px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 800;
+	font-size: 1.3rem;
+	line-height: 1rem;
+	border-radius: 50px;
+	transition: all .5s ease-in-out;
+	&:hover {
+		background: $orange;
+	}
+	@media screen and (max-width: 768px) {
+		padding: 1.5rem 30px;
+	}
+}

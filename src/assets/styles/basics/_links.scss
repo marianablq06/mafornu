@@ -1,0 +1,21 @@
+.primary-link {
+	text-decoration: underline;
+	font-family: 'Commuters Sans';
+	font-weight: 400;
+	transition: all .25s ease-in-out;
+}
+.primary-link.white:hover {
+	color: $blue;
+}
+.link-footer {
+	color: $blue-text;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: 'Commuters Sans';
+	font-weight: 400;
+	transition: all .25s ease-in-out;
+	font-size: .9rem;
+	&:hover {
+		color: $orange;
+	}
+}

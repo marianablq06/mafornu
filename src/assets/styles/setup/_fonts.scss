@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Commuters Sans';
+  src: local('commuters-sans-light'),
+    url('~@/assets/fonts/commuters-sans-light.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Commuters Sans';
+  src: local('commuters-sans-semibold'),
+    url("~@/assets/fonts/commuters-sans-semibold.otf") format('opentype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: 'Commuters Sans';
+  src: local('commuters-sans-bold'),
+    url("~@/assets/fonts/commuters-sans-bold.otf") format('opentype');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Commuters Sans';
+  src: local('commuters-sans-extrabold'),
+    url("~@/assets/fonts/commuters-sans-extrabold.otf") format('opentype');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Commuters Sans';
+  src: local('commuters-sans-heavy'),
+    url("~@/assets/fonts/commuters-sans-heavy.otf") format('opentype');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Bevan';
+  src: local('Bevan'),
+    url("~@/assets/fonts/bevan.ttf") format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,182 @@
+@import "../setup/variables.scss";
+
+.container-slider {
+	background: url('~@/assets/img/productos_mafornu.svg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+    top: -5px;
+    z-index: 3;
+    padding: 70px 0 0 0;
+    @media screen and (max-width: 480px) {
+		padding-top: 20px;
+	}
+}
+.agile__nav-button {
+	background: transparent;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 24px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	transition-duration: 0.3s;
+	width: 80px;
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.5);
+		opacity: 1;
+	}
+}
+.agile__nav-button--prev {
+	left: 0;
+}
+.agile__nav-button--next {
+	right: 0;
+}
+.agile__dots {
+	bottom: 10px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+}
+.agile__dot {
+	margin: 0 10px;
+	button {
+		background-color: transparent;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		cursor: pointer;
+		display: block;
+		height: 10px;
+		font-size: 0;
+		line-height: 0;
+		margin: 0;
+		padding: 0;
+		transition-duration: 0.3s;
+		width: 10px;
+	}
+	&:hover {
+		button {
+			background-color: #fff;
+		}
+	}
+}
+.agile__dot--current {
+	button {
+		background-color: #fff;
+	}
+}
+.slide {
+	display: block;
+	height: 550px;
+	object-fit: cover;
+	width: 100%;
+}
+h3.subtitle {
+	font-weight: 500;
+	margin-bottom: 25px;
+
+}
+.mafornu-products {
+	margin-top: 70px;
+	position: relative;
+	@media screen and (min-width: 1500px) {
+		margin-top: 150px;
+		padding-bottom: 150px;
+	}
+	@media screen and (max-width: 480px) {
+		margin-top: 30px;
+	}
+
+}
+.row-flex {
+	max-width: 75%;
+	margin: 0 auto;
+	align-items: flex-start;
+	.image-product {
+		margin-right: 17%;
+		@media screen and (max-width: 1280px) {
+			img { max-width: 350px; }
+		}
+	}
+	.description-product {
+		margin-top: 9%;
+	}
+	@media screen and (min-width: 768px) and (max-width: 1024px) {
+		max-width: 86%;
+		
+	}
+	@media screen and (max-width: 1180px) {
+		max-width: 75%;
+		.image-product {
+			margin-right: 0;
+			width: 45%;
+		}
+		.description-product {
+			width: 50%;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.image-product {
+			width: 100%;
+			order: 1;
+			img {
+				max-width: 80%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		.description-product {
+			width: 100%;
+			order: 2;
+		}
+	}
+}
+.slide {
+	@media screen and (max-width: 768px) {
+	    height: 450px;
+	}
+	@media screen and (max-width: 480px) {
+		height: 515px;
+	}
+}
+ul.description h4 {
+	font-size: 1rem;
+	color: $blue;
+}
+.agile__actions {
+	position: absolute;
+    width: 100%;
+    top: 20%;
+}
+.navigation-slider {
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    line, path {
+    	transition: all .25s ease-in-out;
+    }
+}
+.next:hover svg, .prev:hover svg {
+	#Path-3, path#Fill-4 {
+		stroke: $orange;
+		fill: $orange;
+	}
+}
+.navigation-slider-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+strong {
+	font-size: inherit;
+}

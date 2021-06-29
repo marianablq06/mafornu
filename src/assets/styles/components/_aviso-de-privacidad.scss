@@ -1,0 +1,47 @@
+@import "../setup/variables.scss";
+
+.call-to-action {
+	display: none!important;
+}
+section.aviso-de-privacidad {
+	padding-top: 150px;
+}
+.header-bar {
+	position: initial!important;
+}
+.number {
+	width: 15%;
+	h4 {
+		font-family: 'Bevan';
+		color: $orange;
+	    font-size: 5rem;
+    	line-height: 3rem;
+    	@media screen and (max-width: 768px) {
+    		font-size: 3rem;
+    	}
+    	@media screen and (max-width: 480px) {
+			font-size: 1.5rem;
+			line-height: 2rem;
+		}
+	}
+}
+.text {
+	width: 85%;
+	.description {
+		font-size: .9rem;
+		font-weight: 600;
+		color: $blue;
+	}
+	p {
+		margin-bottom: 10px;
+	}
+}
+.row-flex {
+	align-items: flex-start;
+	&:not(:last-child) {
+		margin-bottom: 100px;
+	}
+}
+.space {
+	height: 100px;
+}
